@@ -1,0 +1,20 @@
+# 本地配置与密钥，绝不提交
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# 语料与模型（体积大且有版权）
+*.list
+*.wav
+*.mp3
+*.pth
+*.ckpt
+
+# 系统
+.DS_Store
+Thumbs.db
+.idea/
